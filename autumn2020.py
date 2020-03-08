@@ -21,18 +21,19 @@ print("Autumn 2020 Assessment Overview:\n")
 default_percentage = "{:.0%}".format(0.0)
 a1_max = 20
 a1_weight = 20
-a2_max = 30
-a3_max = 10
-a4_max = 40
 a1_score = input("What did you score on Assessment 1? ")
 a1_final = ((float(a1_score) / float(a1_max) * float(a1_weight)))
+
+a2_max = 30
+a2_weight = 30
+a2_score = input("What did you score on Assessment 2? ")
+a2_final = ((float(a2_score) / float(a2_max) * float(a2_weight)))
 
 print(autumn_courses_2020[0] + ": 4")
 for a in pmp_assessment_weighting:
     print(a, pmp_assessment_weighting[a])
-print("Current Percentage: " + str(a1_final))
+print("Current Percentage: " + str(a1_final + a2_final))
 print("Current Grade: \n")
-
 
 # Introduction to Software Development
 print(autumn_courses_2020[1] + ": 3")
