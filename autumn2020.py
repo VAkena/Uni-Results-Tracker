@@ -41,9 +41,6 @@ def view_progess():
 def update_results():
     pass
     
-def help_me():
-    pass
-
 def menu_options(i):
     switcher={
             "v": view_progess(),
@@ -51,7 +48,7 @@ def menu_options(i):
             "h":help_me(),
             }
     return switcher.get(i,"Please try again!")
-user_choice = input("What do you want to do? Choice (v/u/x/h): ")
+user_choice = input("What do you want to do? Choice (v/u/x): ")
 
 # user_choice = input("What do you want to do? Choice (v/u/x/h): ")
 # while user_choice != 'x':
