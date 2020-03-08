@@ -44,8 +44,7 @@ def update_results():
 def menu_options(i):
     switcher={
             "v": view_progess(),
-            "u":update_results(),
-            "h":help_me(),
+            "u":update_results()
             }
     return switcher.get(i,"Please try again!")
 user_choice = input("What do you want to do? Choice (v/u/x): ")
