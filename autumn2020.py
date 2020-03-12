@@ -56,7 +56,7 @@ a4_final = ((float(a4_score) / float(a4_max) * float(a4_weight)))
 print(autumn_courses_2020[0] + ": 4")
 for a in pmp_assessment_weighting:
     print(a, pmp_assessment_weighting[a])
-print("Current Percentage: " + str(a1_final + a2_final + a3_final + a4_final))
+print("Current Percentage: " + str(a1_final + a2_final + a3_final + a4_final) + "%")
 print("Current Grade: \n")
 
 # Introduction to Software Development
@@ -81,7 +81,7 @@ b3_final = ((float(b3_score) / float(b3_max) * float(b3_weight)))
 print(autumn_courses_2020[1] + ": 3")
 for b in isd_assessment_weighting:
     print(b, isd_assessment_weighting[b])
-print("Current Percentage: " + str(b1_final + b2_final + b3_final))
+print("Current Percentage: " + str(b1_final + b2_final + b3_final) + "%")
 print("Current Grade: \n")
 
 # System Security
@@ -106,7 +106,7 @@ c3_final = ((float(c3_score) / float(c3_max) * float(c3_weight)))
 print(autumn_courses_2020[2] + ": 3")
 for c in ss_assessment_weighting:
     print(c, ss_assessment_weighting[c])
-print("Current Percentage: " + str(c1_final + c2_final + c3_final))
+print("Current Percentage: " + str(c1_final + c2_final + c3_final) + "%")
 print("Current Grade: \n")
 
 # Routing and Switching Essentials
@@ -131,5 +131,5 @@ d3_final = ((float(d3_score) / float(d3_max) * float(d3_weight)))
 print(autumn_courses_2020[3] + ": 3")
 for d in rse_assessment_weighting:
     print(d, rse_assessment_weighting[d])
-print("Current Percentage: " + str(d1_final + d2_final + d3_final))
+print("Current Percentage: " + str(d1_final + d2_final + d3_final) + "%")
 print("Current Grade: \n")
